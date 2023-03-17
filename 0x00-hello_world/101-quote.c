@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - A program that prints without the function printf or puts
  * Return: 1 (success)
