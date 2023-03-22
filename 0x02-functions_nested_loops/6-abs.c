@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * A function that computes the absolute value of an integer
+ * Main - A function that computes the absolute value of an integer
  * @n: the number to be computed
  * Return: Absolute value of number or zero
  */
 
-int _abs(int c)
+int _abs(int)
 
 {
 
