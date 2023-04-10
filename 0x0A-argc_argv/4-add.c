@@ -18,8 +18,10 @@ int _atoi(char *s)
 	f = 0;
 	digit = 0;
 
+
 	while (s[len] != '\0')
 		len++;
+
 
 	while (i < len && f == 0)
 	{
@@ -38,10 +40,12 @@ int _atoi(char *s)
 			f = 0;
 		}
 		i++;
+
 	}
 
 	if (f == 0)
 		return (0);
+
 
 	return (n);
 }
@@ -57,7 +61,9 @@ int main(int argc, char *argv[])
 {
 	int sum, num, i, j, k;
 
+
 	sum = 0;
+
 
 	for (i = 1; i < argc; i++)
 	{
@@ -81,5 +87,7 @@ int main(int argc, char *argv[])
 	}
 
 	printf("%d\n", sum);
+
 	return (0);
+
 }
