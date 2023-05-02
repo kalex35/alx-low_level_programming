@@ -15,7 +15,7 @@ int main(void)
 	listint_t *new;
 
 	listint_t hello = {8, NULL};
-	
+
 	size_t n;
 
 	head = &hello;
